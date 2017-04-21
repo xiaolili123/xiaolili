@@ -15,8 +15,8 @@
 header("Content-Type:text/html;charset=utf8");
 //登录成功，用表格形式显示打印信息
 if(isset($_GET['add']) && $_GET['add']=='success'){
-
-     echo "<script>alert('增加成功');</script>";
+// 这是我测试的。。
+         echo "<script>alert('增加成功');</script>";
 }
 
 ////判断修改信息成功，接受重定向回来的值
